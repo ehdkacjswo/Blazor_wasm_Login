@@ -29,12 +29,11 @@ public class WeatherForecastController : ControllerBase
             Date = DateTime.Now.AddDays(index),
             TemperatureC = Random.Shared.Next(-20, 55),
             Summary = Summaries[Random.Shared.Next(Summaries.Length)],
-            UserName = User.Identity?.Name ?? string.Empty // NOTE: THIS LINE OF CODE IS NEWLY ADDED
+            UserName = User.Identity?.Name ?? string.Empty
         })
         .ToArray();
     }
 
-    // NOTE: THIS ENTIRE BLOCK OF CODE IS NEWLY ADDED
     [HttpGet("{date}")]
     [Authorize]
     public WeatherForecast Get(DateTime date)

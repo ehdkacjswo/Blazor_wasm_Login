@@ -1,23 +1,23 @@
 @inject IJSRuntime jsr
+@inject IGlobal global
 
 <p>
-	@if (string.IsNullOrEmpty(@username))
+	@if (string.IsNullOrEmpty(user))
 	{
 		<span><a href="/register">Register</a> <a href="/login">Login</a></span>
 	}
 	else
 	{
-		<span>Hello, @username  <a href="/logout">(Logout)</a></span>
+		<span>Hello, @user  <a href="/logout">(Logout)</a></span>
 	}
 </p>
 
 @code {
-
-	string username = Global.user;
+	string user = String.Empty;
 
 	protected override async Task OnInitializedAsync()
 	{
-		await base.OnInitializedAsync();
-		username = await jsr.InvokeAsync<string>("sessionStorage.getItem", "user").ConfigureAwait(false);
+		base.OnInitializedAsync();
+		user = global.get_user();
 	}
 }

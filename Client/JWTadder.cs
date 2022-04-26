@@ -8,14 +8,17 @@ namespace lda.Client;
 public class JWTadder : DelegatingHandler
 {
     private IJSRuntime jsr;
-    public JWTadder(IJSRuntime _jsr)
+    private IGlobal global;
+    public JWTadder(IJSRuntime _jsr, IGlobal _global)
     {
         jsr = _jsr;
+        global = _global;
     }
 
     protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
     {
-        if(Global.jwt != String.Empty) request.Headers.Add("Authorization", "Bearer " + Global.jwt);
+        string jwt = global.get_jwt();
+        if(!String.IsNullOrEmpty(jwt)) request.Headers.Add("Authorization", "Bearer " + jwt);
         return await base.SendAsync(request, cancellationToken);
     }
 }

@@ -1,8 +1,9 @@
 @page "/login"
 @using lda.Shared
 @inject HttpClient Http
-@inject IJSRuntime jsr
+@inject IJSInProcessRuntime jsr
 @inject ILogger<Login> logger;
+@inject IGlobal global
 
 <h3>Login</h3>
 
@@ -48,8 +49,12 @@
 				
 				if (result.success)
 				{
-					Global.user = result.email;
-					Global.jwt = result.jwtBearer;
+					await jsr.InvokeVoidAsync("sessionStorage.setItem", "user", result.email);
+					await jsr.InvokeVoidAsync("sessionStorage.setItem", "jwt", result.jwtBearer);
+
+					global.set_user(result.email);
+					global.set_jwt(result.jwtBearer);
+
 					await jsr.InvokeVoidAsync("history.go", -1);
 				}
 			}

@@ -11,12 +11,14 @@ public class AuthController : ControllerBase
 {
 	private string CreateJWT(User user)
 	{
-		var secretkey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("THIS IS THE SECRET KEY")); // NOTE: SAME KEY AS USED IN Program.cs FILE
+		// Should use same key on program.cs
+		var secretkey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("THIS IS THE SECRET KEY"));
 		var credentials = new SigningCredentials(secretkey, SecurityAlgorithms.HmacSha256);
 
-		var claims = new[] // NOTE: could also use List<Claim> here
+		var claims = new[]
 		{
-			new Claim(ClaimTypes.Name, user.Email), // NOTE: this will be the "User.Identity.Name" value
+			// Register email to "User.Identity.Name"
+			new Claim(ClaimTypes.Name, user.Email),
 			new Claim(JwtRegisteredClaimNames.Sub, user.Email),
 			new Claim(JwtRegisteredClaimNames.Email, user.Email),
 			new Claim(JwtRegisteredClaimNames.Jti, user.Email) // NOTE: this could a unique ID assigned to the user by a database

@@ -1,0 +1,69 @@
+@page "/JWTdecode"
+@using Microsoft.IdentityModel.Tokens
+@inject HttpClient Http
+@inject IJSRuntime jsr
+@inject NavigationManager nav
+@inject IGlobal global
+
+<h3>JWTdecode</h3>
+
+<UserComponent></UserComponent>
+
+<h1>Weather forecast</h1>
+<p>This component demonstrates fetching data from the server.</p>
+
+<p><em>@message</em></p>
+<p>New token : @token</p>
+
+@code {
+	string message = String.Empty;
+	string token = String.Empty;
+	
+	protected override async Task OnInitializedAsync()
+	{
+		await base.OnInitializedAsync();
+		
+		// Not logged in
+		if (string.IsNullOrEmpty(global.get_jwt()))
+		{
+			message = "Login to access the data.";
+			return;
+		}
+
+		try
+		{
+			message = "Loading...";
+			var response = await Http.PostAsJsonAsync<string>("/api/jwt", global.get_jwt(), CancellationToken.None);
+			//var response = await Http.PostAsync("/api/jwt", new StringContent(Global.jwt));
+
+			if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
+			{
+				message = "Incorrect or expired JWT";
+
+				// Logged in, but token is expired
+				if(!string.IsNullOrEmpty(global.get_jwt())) nav.NavigateTo("/Logout");
+			}
+			
+			else if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
+			{
+				message = "No content from server";
+			}
+				
+			else if (response.IsSuccessStatusCode)
+			{
+				message = "Content loaded from server";
+				//token = await response.Content.ReadFromJsonAsync<String>();
+				token = await response.Content.ReadAsStringAsync();
+			}
+
+			else
+			{
+				message = response.StatusCode.ToString();
+			}
+		}
+		catch (Exception ex)
+		{
+
+		}
+	}
+}

@@ -1,15 +1,20 @@
 @page "/logout"
 @inject IJSRuntime jsr
 @inject NavigationManager nav
+@inject IGlobal global
 
 @code {
 
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
-        Global.jwt = String.Empty;
-        Global.user = String.Empty;
         
+        await jsr.InvokeVoidAsync("sessionStorage.removeItem", "user");
+        await jsr.InvokeVoidAsync("sessionStorage.removeItem", "jwt");
+        
+        global.reset_user();
+        global.reset_jwt();
+
         await jsr.InvokeVoidAsync("history.go", -1);
     }
 }

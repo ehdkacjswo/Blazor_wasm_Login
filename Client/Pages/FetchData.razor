@@ -3,6 +3,7 @@
 @inject HttpClient Http
 @inject IJSRuntime jsr
 @inject NavigationManager nav
+@inject IGlobal global
 
 <UserComponent></UserComponent>
 
@@ -40,7 +41,7 @@
 	private async Task GetTodaysForecast()
 	{
 		// Not logged in
-		if (string.IsNullOrEmpty(Global.jwt))
+		if (string.IsNullOrEmpty(global.get_user()))
 		{
 			message = "Login to access the data.";
 			return;
@@ -53,10 +54,9 @@
 			if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
 			{
 				forecasts.Clear();
-				Global.user = String.Empty;
-				
+
 				// Logged in, but token is expired
-				if(!string.IsNullOrEmpty(Global.user)) nav.NavigateTo("/Logout");
+				if(!string.IsNullOrEmpty(global.get_user())) nav.NavigateTo("/Logout");
 			}
 			
 			else if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
@@ -82,7 +82,7 @@
 		await base.OnInitializedAsync();
 		
 		// Not logged in
-		if (string.IsNullOrEmpty(Global.jwt))
+		if (string.IsNullOrEmpty(global.get_jwt()))
 		{
 			message = "Login to access the data.";
 			return;
@@ -100,7 +100,7 @@
 				forecasts.Clear();	
 
 				// Logged in, but token is expired
-				if(!string.IsNullOrEmpty(Global.jwt)) nav.NavigateTo("/Logout");
+				if(!string.IsNullOrEmpty(global.get_jwt())) nav.NavigateTo("/Logout");
 			}
 			
 			else if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
