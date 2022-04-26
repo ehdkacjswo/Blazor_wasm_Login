@@ -1,0 +1,371 @@
+{
+  "Version": "1.0.0.3",
+  "MountPoints": [
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "163769ac-4d5e-49ef-b2f3-ba8d0615d8e3",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\AndroidBindingsLibrary.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "0a0e9e1b-6d5d-4404-b078-fc12d9ebbc35",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\AndroidBlankApp.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "e29a7dac-4bd4-4d7f-a5e3-f027c0984900",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\AndroidClassLibrary.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "32028b09-cfbf-404e-b967-492a51e5e484",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\AndroidUnitTestProject.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "842f64fd-e2d5-496b-83f3-b495124ef2f2",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\AndroidWearApp.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "15ac3deb-6554-409b-bc78-274eede06aab",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\CrossPlatformUITest.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "f20cd62d-507a-4a60-b80e-6b7e73b76093",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\CrossPlatformXamarinFormsLibrary.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "3a970dce-1015-4960-92b4-a416f87b29d4",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\CrossPlatformXamarinFormsSharedApp.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "f84280fa-31f1-43ea-bda6-efe9415a1aec",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\CrossPlatformXamarinFormsStandardApp.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "2233a519-2275-4726-9e3d-d267df48da34",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\CrossPlatformXamarinNativeSharedApp.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "22eb5db6-e1f0-48b6-b8c1-b2dc92138ba8",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\CSharpClassLibraryTemplate.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "0c6a30f2-6147-47c9-80e8-1618a6b564c0",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\CSharpConsoleApplicationTemplate.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "50d29eae-c017-4dc6-bbf6-3f0cd8a343b6",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\CSharpEmptyProjectTemplate.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "b6186b57-e74b-4258-a311-4ef11d58df82",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\CSharpMvcWebApplication.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "4a9401f9-e990-4f2d-bb07-dd0985f8a503",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\CSharpSharedProjectTemplate.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "0581af7b-41b9-4636-a9e4-f4cf422d7f3c",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\CSharpUwpApplicationTemplate.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "b6b00f5a-6581-4558-8ad6-abc8fa330d9a",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\CSharpWindowsFormsApp.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "76fb8da8-76fb-4218-984f-5a462e051ebe",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\CSharpWpfApplicationTemplate.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "c4641a32-beff-463f-a48d-05ff48b3b836",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\IOSApp.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "e29ddbd7-e6f7-4077-bf19-ad9ac694df09",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\IOSBindingsLibrary.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "c5c31a12-90b8-47a0-b391-12810fcf410b",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\IOSClassLibrary.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "85aaaac1-1ec1-4ad4-b019-d821081ad76c",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\IOSUnitTestProject.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "0d50bef2-a4b4-4eb7-984b-34ac18e4ae54",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\MacOSApp.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "53bc3c5f-bce2-41ac-a0ac-5af2056b3acf",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\MacOSBindingsLibrary.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "31f87ae5-f12d-4ce2-ba83-983984f73527",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\MacOSClassLibrary.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "885c2a1e-014a-4554-bd09-1a2bdb969847",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\NUnitTestProjectTemplate.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "091cf39a-5cdb-4531-90b2-f45d34b3116f",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\TvOSApp.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "a0d2ae61-b86a-42d6-a3b1-0f7a6caeaa04",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\TvOSBindingsLibrary.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "603f9b91-012d-48f4-b54a-40f2e3640771",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\TvOSClassLibrary.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "fb44ecdc-67d9-4719-ba86-8f35760ffa2a",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\VBClassLibraryTemplate.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "6d65fe5e-2f16-445c-aded-9348b3c06653",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\VBConsoleApplicationTemplate.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "4bf8eb92-8c4a-4f18-8c2a-540c94e75984",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\VBEmptyProjectTemplate.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "e9d2d9bd-0c75-4f82-a694-058770fe0eaa",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\WatchOSAppTemplate.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "e933c32d-fa19-4d07-a553-f3da300a94b1",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\XUnitTestProjectTemplate.zip"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "8c19221b-dea3-4250-86fe-2d4e189a11d2",
+      "MountPointId": "92b926ad-712c-4756-ad66-64bd949be378",
+      "Place": "C:\\Users\\lda\\AppData\\Roaming\\JetBrains\\Rider2021.3\\plugins\\specflowriderplugin"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "8c19221b-dea3-4250-86fe-2d4e189a11d2",
+      "MountPointId": "0219f393-2c18-4a6a-b793-c0036d8c13ad",
+      "Place": "C:\\Program Files\\JetBrains\\JetBrains Rider 2021.3.3\\plugins\\rider-fsharp"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "8c19221b-dea3-4250-86fe-2d4e189a11d2",
+      "MountPointId": "2d692fa1-51cb-4aa4-9c76-b03030d39da9",
+      "Place": "C:\\Program Files\\JetBrains\\JetBrains Rider 2021.3.3\\plugins\\rider-unity"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "8c19221b-dea3-4250-86fe-2d4e189a11d2",
+      "MountPointId": "08401fb5-fe05-4bad-b737-43616f02b03a",
+      "Place": "C:\\Users\\lda\\AppData\\Roaming\\JetBrains\\Rider2021.3\\plugins\\specflowriderplugin\\projectTemplates\\SpecFlowProject"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "8c19221b-dea3-4250-86fe-2d4e189a11d2",
+      "MountPointId": "3f564699-70da-4829-b24a-6f127ff3ef72",
+      "Place": "C:\\Program Files\\JetBrains\\JetBrains Rider 2021.3.3\\plugins\\rider-fsharp\\projectTemplates\\FSharpClassLibraryTemplate"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "8c19221b-dea3-4250-86fe-2d4e189a11d2",
+      "MountPointId": "c46d01b2-843f-46c6-ae31-354f35fed443",
+      "Place": "C:\\Program Files\\JetBrains\\JetBrains Rider 2021.3.3\\plugins\\rider-fsharp\\projectTemplates\\FSharpConsoleApplicationTemplate"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "8c19221b-dea3-4250-86fe-2d4e189a11d2",
+      "MountPointId": "9934b133-8324-416d-9863-26111090b53a",
+      "Place": "C:\\Program Files\\JetBrains\\JetBrains Rider 2021.3.3\\plugins\\rider-unity\\projectTemplates\\UnityCSharpProjectTemplate"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "4331ed85-786d-496a-b8ba-3420584472c6",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\microsoft.dotnet.common.itemtemplates.6.0.200.nupkg"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "55dbdd96-d9bc-437a-91f4-1639092b414f",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\microsoft.dotnet.common.projecttemplates.6.0.6.0.200.nupkg"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "3b48c63c-73be-463b-808b-9b8d11f920d3",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\microsoft.dotnet.test.projecttemplates.6.0.1.0.2-beta4.22064.3.nupkg"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "8befcd2d-967c-49b0-b250-c26ac2506621",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\microsoft.dotnet.web.itemtemplates.6.0.6.0.2.nupkg"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "8e01055a-c8c6-4d06-91f9-90d2c9cbb792",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\microsoft.dotnet.web.projecttemplates.6.0.6.0.2.nupkg"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "ec6a2d09-cd1a-4d7d-a1b9-f5b355df099f",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\microsoft.dotnet.web.spa.projecttemplates.6.0.6.0.2.nupkg"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "2f35c416-9638-4cff-af95-e0f6de3d671a",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\microsoft.dotnet.winforms.projecttemplates.6.0.2-servicing.22064.7.nupkg"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "f7bd992b-91f9-4fc8-ac1b-a7993f7bc9dd",
+      "Place": "C:\\Users\\lda\\.templateengine\\Rider\\latest\\packages\\microsoft.dotnet.wpf.projecttemplates.6.0.2-servicing.22064.8.nupkg"
+    }
+  ],
+  "ComponentGuidToAssemblyQualifiedName": {
+    "f85702b8-d199-42b1-bb9b-7f1380af57f8": "Microsoft.TemplateEngine.Edge.TemplateUpdates.DefaultInstallUnitDescriptorFactory, Microsoft.TemplateEngine.Edge, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "ac33c6a1-52ca-4215-b72d-2dce7f6a1d2f": "Microsoft.TemplateEngine.Edge.TemplateUpdates.NupkgInstallUnitDescriptorFactory, Microsoft.TemplateEngine.Edge, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.RunnableProjectGenerator, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "10919118-4e13-4fa9-825c-3b4da855578e": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.CaseChangeMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "11c6eacf-8d24-42fd-8fc6-84063fcd8f14": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.CoalesceMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "370996fe-2943-4aed-b2f6-ec03f0b75b4a": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.ConstantMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "bb625f71-6404-4550-98af-b2e546f46c5f": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.EvaluateMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "d49b3690-b1e5-410f-a260-e1d7e873d8b2": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.GeneratePortNumberMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "10919008-4e13-4fa8-825c-3b4da855578e": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.GuidMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "6a2c58e5-8743-484b-af3c-536770d31cee": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.JoinMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "f2b423d7-3c23-4489-816a-41d8d2a98596": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.NowMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "642e0443-f82b-4a4b-a797-cc1eb42221ae": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.ProcessValueFormMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "011e8dc1-8544-4360-9b40-65fd916049b7": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.RandomMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "8a4d4937-e23f-426d-8398-3bdbd1873adb": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.RegexMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "aa5957b0-07b1-4b68-847f-83713973e86f": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.RegexMatchMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "b57d64e0-9b4f-4abe-9366-711170fd5294": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.SwitchMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "3147965a-08e5-4523-b869-02c8e9a8aaa1": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Config.BalancedNestingConfig, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "3e8bcbf0-d631-45ba-a12d-fbf1de03aa38": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Config.ConditionalConfig, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "a1e27a4b-9608-47f1-b3b8-f70df62dc521": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Config.FlagsConfig, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "3fae1942-7257-4247-b44d-2dde07cb4a4a": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Config.IncludeConfig, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "3d33b3bf-f40e-43eb-a14d-f40516f880cd": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Config.RegionConfig, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "62db7f1f-a10e-46f0-953f-a28a03a81cd1": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Config.ReplacementConfig, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+  },
+  "ProbingPaths": [
+    "C:\\Users\\lda\\.templateengine\\Rider\\latest\\content"
+  ],
+  "ComponentTypeToGuidList": {
+    "Microsoft.TemplateEngine.Abstractions.TemplateUpdates.IInstallUnitDescriptorFactory, Microsoft.TemplateEngine.Abstractions, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60": [
+      "f85702b8-d199-42b1-bb9b-7f1380af57f8",
+      "ac33c6a1-52ca-4215-b72d-2dce7f6a1d2f"
+    ],
+    "Microsoft.TemplateEngine.Abstractions.IGenerator, Microsoft.TemplateEngine.Abstractions, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60": [
+      "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3"
+    ],
+    "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.IMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60": [
+      "10919118-4e13-4fa9-825c-3b4da855578e",
+      "11c6eacf-8d24-42fd-8fc6-84063fcd8f14",
+      "370996fe-2943-4aed-b2f6-ec03f0b75b4a",
+      "bb625f71-6404-4550-98af-b2e546f46c5f",
+      "d49b3690-b1e5-410f-a260-e1d7e873d8b2",
+      "10919008-4e13-4fa8-825c-3b4da855578e",
+      "6a2c58e5-8743-484b-af3c-536770d31cee",
+      "f2b423d7-3c23-4489-816a-41d8d2a98596",
+      "642e0443-f82b-4a4b-a797-cc1eb42221ae",
+      "011e8dc1-8544-4360-9b40-65fd916049b7",
+      "8a4d4937-e23f-426d-8398-3bdbd1873adb",
+      "aa5957b0-07b1-4b68-847f-83713973e86f",
+      "b57d64e0-9b4f-4abe-9366-711170fd5294"
+    ],
+    "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.IDeferredMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60": [
+      "10919118-4e13-4fa9-825c-3b4da855578e",
+      "11c6eacf-8d24-42fd-8fc6-84063fcd8f14",
+      "370996fe-2943-4aed-b2f6-ec03f0b75b4a",
+      "d49b3690-b1e5-410f-a260-e1d7e873d8b2",
+      "10919008-4e13-4fa8-825c-3b4da855578e",
+      "6a2c58e5-8743-484b-af3c-536770d31cee",
+      "f2b423d7-3c23-4489-816a-41d8d2a98596",
+      "011e8dc1-8544-4360-9b40-65fd916049b7",
+      "8a4d4937-e23f-426d-8398-3bdbd1873adb",
+      "aa5957b0-07b1-4b68-847f-83713973e86f",
+      "b57d64e0-9b4f-4abe-9366-711170fd5294"
+    ],
+    "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Config.IOperationConfig, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=42.42.42.42, Culture=neutral, PublicKeyToken=adb9793829ddae60": [
+      "3147965a-08e5-4523-b869-02c8e9a8aaa1",
+      "3e8bcbf0-d631-45ba-a12d-fbf1de03aa38",
+      "a1e27a4b-9608-47f1-b3b8-f70df62dc521",
+      "3fae1942-7257-4247-b44d-2dde07cb4a4a",
+      "3d33b3bf-f40e-43eb-a14d-f40516f880cd",
+      "62db7f1f-a10e-46f0-953f-a28a03a81cd1"
+    ]
+  }
+}

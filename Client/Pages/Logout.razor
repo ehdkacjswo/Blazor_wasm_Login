@@ -1,0 +1,14 @@
+@page "/logout"
+@inject IJSRuntime jsr
+@inject NavigationManager nav
+
+@code {
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        await jsr.InvokeVoidAsync("sessionStorage.removeItem", "user").ConfigureAwait(false);
+        await jsr.InvokeVoidAsync("sessionStorage.removeItem", "jwt").ConfigureAwait(false);
+        await jsr.InvokeVoidAsync("history.go", -1);
+    }
+}
