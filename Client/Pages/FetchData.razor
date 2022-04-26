@@ -7,62 +7,44 @@
 <UserComponent></UserComponent>
 
 <h1>Weather forecast</h1>
-<p>@state</p>
 <p>This component demonstrates fetching data from the server.</p>
-@if (string.IsNullOrEmpty(@userdata))
-{
-	<p><a href="/login">LOGIN TO ACCESS THIS DATA</a></p>
-}
-else
-{
-	if (forecasts == null)
-	{
-		<p><em>Loading...</em></p>
-	}
-	else
-	{
-		<p><a href="javascript:;" @onclick="GetTodaysForecast">TODAY'S FORECAST</a></p>
-		<table class="table">
-			<thead>
-				<tr>
-					<th>Date</th>
-					<th>Temp. (C)</th>
-					<th>Temp. (F)</th>
-					<th>Summary</th>
-					<th>User</th>
-				</tr>
-			</thead>
-			<tbody>
-				@foreach (var forecast in forecasts)
-				{
-					<tr>
-						<td>@forecast.Date.ToShortDateString()</td>
-						<td>@forecast.TemperatureC</td>
-						<td>@forecast.TemperatureF</td>
-						<td>@forecast.Summary</td>
-						<td>@forecast.UserName</td>
-					</tr>
-				}
-			</tbody>
-		</table>
-	}
-}
+
+<p><em>@message</em></p>
+
+<p><a href="javascript:;" @onclick="GetTodaysForecast">TODAY'S FORECAST</a></p>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Date</th>
+				<th>Temp. (C)</th>
+				<th>Temp. (F)</th>
+				<th>Summary</th>
+				<th>User</th></tr>
+		</thead>
+		<tbody>
+		@foreach (var forecast in forecasts)
+		{
+			<tr>
+				<td>@forecast.Date.ToShortDateString()</td>
+				<td>@forecast.TemperatureC</td>
+				<td>@forecast.TemperatureF</td>
+				<td>@forecast.Summary</td>
+				<td>@forecast.UserName</td></tr>
+		}
+		</tbody></table>
 
 @code {
-
-	private List<WeatherForecast> forecasts;
-	string userdata = String.Empty;
-	string state = String.Empty;
-
-	private async Task<string> GetJWT()
-	{
-		userdata = await jsr.InvokeAsync<string>("sessionStorage.getItem", "user").ConfigureAwait(false);
-		return await jsr.InvokeAsync<string>("sessionStorage.getItem", "jwt").ConfigureAwait(false);
-	}
+	private List<WeatherForecast> forecasts = new List<WeatherForecast>();
+	string message = String.Empty;
 
 	private async Task GetTodaysForecast()
 	{
-		userdata = await jsr.InvokeAsync<string>("sessionStorage.getItem", "user").ConfigureAwait(false);
+		// Not logged in
+		if (string.IsNullOrEmpty(Global.jwt))
+		{
+			message = "Login to access the data.";
+			return;
+		}
 		
 		try
 		{
@@ -70,15 +52,16 @@ else
 			var response = await Http.SendAsync(requestMsg);
 			if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
 			{
-				userdata = null;
+				forecasts.Clear();
+				Global.user = String.Empty;
 				
 				// Logged in, but token is expired
-				if(!string.IsNullOrEmpty(userdata)) nav.NavigateTo("/Logout");
+				if(!string.IsNullOrEmpty(Global.user)) nav.NavigateTo("/Logout");
 			}
 			
 			else if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
 			{
-				forecasts = null;
+				forecasts.Clear();
 			}
 				
 			else if (response.IsSuccessStatusCode)
@@ -97,27 +80,38 @@ else
 	protected override async Task OnInitializedAsync()
 	{
 		await base.OnInitializedAsync();
-		userdata = await jsr.InvokeAsync<string>("sessionStorage.getItem", "user").ConfigureAwait(false);
 		
+		// Not logged in
+		if (string.IsNullOrEmpty(Global.jwt))
+		{
+			message = "Login to access the data.";
+			return;
+		}
+
 		try
 		{
+			message = "Loading...";
 			var requestMsg = new HttpRequestMessage(HttpMethod.Get, "/api/weatherforecast");
 			
 			var response = await Http.SendAsync(requestMsg);
 			if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
 			{
-				forecasts = null;
-				
+				message = "Incorrect or expired JWT";
+				forecasts.Clear();	
+
 				// Logged in, but token is expired
-				if(!string.IsNullOrEmpty(userdata)) nav.NavigateTo("/Logout");
+				if(!string.IsNullOrEmpty(Global.jwt)) nav.NavigateTo("/Logout");
 			}
+			
 			else if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
 			{
-				forecasts = null;
+				message = "No content from server";
+				forecasts.Clear();
 			}
 				
 			else if (response.IsSuccessStatusCode)
 			{
+				message = "Content loaded from server";
 				forecasts = await response.Content.ReadFromJsonAsync<List<WeatherForecast>>();
 			}
 		}

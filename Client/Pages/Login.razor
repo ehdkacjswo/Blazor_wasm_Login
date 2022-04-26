@@ -48,8 +48,8 @@
 				
 				if (result.success)
 				{
-					await jsr.InvokeVoidAsync("sessionStorage.setItem", "user", result.email).ConfigureAwait(false);
-					await jsr.InvokeVoidAsync("sessionStorage.setItem", "jwt", result.jwtBearer).ConfigureAwait(false);
+					Global.user = result.email;
+					Global.jwt = result.jwtBearer;
 					await jsr.InvokeVoidAsync("history.go", -1);
 				}
 			}
